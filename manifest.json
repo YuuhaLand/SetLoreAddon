@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "SetLoreAddon v1.0.0",
+    "description": "アイテムに説明文を付けるアドオン!\n/scriptevent sla:setlore [lore]\nby YuuhaLand",
+    "uuid": "e264389b-16c8-4318-8330-0d5b4df94789",
+    "version": [ 1, 0, 0 ],
+    "min_engine_version": [ 1, 13, 0 ]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "84af48cd-10ed-4427-ab31-04a5c559e8a9",
+      "version": [ 1, 0, 0 ],
+      "entry": "scripts/Main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.14.0"
+    }
+  ]
+}
